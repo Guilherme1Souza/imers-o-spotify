@@ -1,5 +1,15 @@
-@media screen and (max-width: 1015px) {
+@media screen and (min-width: 1015px) and (max-width: 320px) {
    .offer__list-item {
     grid-template-columns: 1fr 1fr;
    } 
-}
+
+   .playlist-container {
+      width: 120px;
+      margin-right: 45px;
+      max-height: 150px;
+  }
+   .sidebar {
+       min-width: 120px;
+   }
+   }
+      
